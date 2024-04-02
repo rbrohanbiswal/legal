@@ -1,0 +1,361 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(24, 24, 247);
+    text-decoration: none;
+    /* position: absolute; */
+    width: 100%;
+    list-style-type: none;
+}
+.left{
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    padding: 20px;
+
+
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    font-size: 25px;
+    /* padding-top: 20px; */
+   
+}
+button{
+    background-color:  rgb(24, 24, 247);
+    padding:15px ;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+button:hover{
+    color:  rgb(24, 24, 247);
+    background-color: white;
+}
+i{
+    color:white;
+}
+a:hover{
+    color: rgb(71, 69, 69);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+button:hover i{
+    color: rgb(24, 24, 247) ;
+}
+.team{
+    background-color:rgb(24, 24, 247) ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    padding-top: 100px;
+    width: 100%;
+
+}
+.team h1{
+    font-size: 60px;
+}
+.team p{
+    font-size: 25px ;
+    width: 52%;
+    text-align: center;
+    padding: 25px;
+}
+.middle-button{
+    background-color: rgb(24, 24, 247) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 300px;
+
+
+}
+.middle-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+   
+}
+.middle-images img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: 500px;
+    width: 90%;
+}
+.partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 37);
+    font-size: 20px;
+    padding: 25px;
+}
+
+.support{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+
+}
+
+.support .operations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 45%;
+    align-items: start;
+
+}
+.support .operations h1{
+    font-size:40px ;
+    display: flex;
+    color: rgb(3, 3, 37);
+}
+
+.support .operations p{
+    font-size: 20px;
+    color: rgb(3, 3, 37);
+}
+.support .operations button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.support .operations button:hover,
+.support .operations button:hover i{
+    background-color: rgb(43, 43, 83);
+    color: white;
+}
+
+.support .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.cards .card{
+    border-top: 2px solid black;
+    width: 30%;
+    padding-top: 30px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.cards .card p{
+    font-size: 25px;
+    text-align: left;
+}
+.cards .card p:nth-child(1){
+    font-size: 35px;
+    text-align: left;
+    font-weight: 700;
+}
+.briefly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 37);
+    font-size: 20px;
+    /* padding-top: 45px; */
+    background-color: rgb(210, 235, 235);
+    padding-top: 150px;
+    
+}
+.briefly-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(210, 235, 235);
+    color: rgb(3, 3, 37);
+    width: 100%;
+    padding: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    gap: 15px;
+    text-align: center;
+    height: 300px;
+}
+.card .logo{
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.card .logo img{
+    height: 50px;
+}
+
+.card h1{
+    padding-bottom: 10px;
+}
+.card p{
+    font-size: 20px;
+}
+.partner2{
+    display: flex;
+    background-color: rgb(24, 24, 247) ;
+
+    justify-content: start;
+
+}
+.partner2 .picture{
+    width: 50%;
+    
+}
+.partner2 .picture img{
+    height: 100%; 
+    width: 100%;
+}
+.partner2 .touch{
+    color: aliceblue;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+.partner2 button ,
+.partner2 button i{
+    background-color: white;
+    color: blue;
+}
+.partner2 button:hover ,
+.partner2 button:hover i{
+    color: white;
+    background-color: blue;
+}
+.partner2 button{
+    display:flex;
+    justify-content: center;
+    gap:10px ;
+    width: 170px;
+    padding: 10px;
+}
+.partner2 .touch h1{
+    font-size: 40px;
+}
+.hear{
+    text-align: center;
+    padding: 40px;
+    padding-top: 100px;
+    font-size: 28px;
+}
+
+.partners{
+    border: 2px solid  rgb(43, 43, 43);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    gap: 30px;
+    height: 340px;
+    margin-bottom: 100px;
+
+}
+.partners .profile img{
+    border-radius: 50%;
+
+}
+.partners .profile{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.partners .profile p{
+    font-size: 20px;
+}
+.partners .about-profile{
+    flex: 1;
+    font-size: 21px;
+}
+.bottom-content{
+    background-color:  rgb(43, 43, 43);
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    padding: 100px;
+}
+.forowners{
+    display: flex;
+    gap: 20px;
+}
+.bottom-content img{
+    height:70px ;
+    
+}
+.forowners .privacy{
+    font-size: 22px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 20px;
+}
+.ruler{
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ruler hr{
+    height: 2px;
+    background-color: white;
+    width: 85%;
+
+
+}
+.copy{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding-left: 7.5%;
+    padding-top:20px ;
+    padding-bottom: 100px;
+}
+
+
